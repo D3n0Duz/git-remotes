@@ -9,10 +9,24 @@
 #### Adding a remotes
 
 `git remote set-url origin --push --add <First-Repository-Link>`
-`git remote set-url origin --push --add <Second-Repository-Link>`
+
+`git remote set-url origin --push --add <Second-Repository-Link>` 
+
+`git remote add origin-second-git-server <Second-Repository-Link>` 
 
 #### Checking the remotes
+
 `git remotes -v`
 
-#### Push the changes
+
+#### Push the changes everywhere
+
 `git push origin --all`
+
+#### Pull changes from First Repository Link
+
+`git pull --all`
+
+#### Pull changes from Second Repository Link
+
+`git pull origin-second-git-server <branch-name>`
